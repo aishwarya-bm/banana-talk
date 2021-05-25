@@ -6,7 +6,7 @@ var btnTranslate = document.getElementById("btn-translate");
 btnTranslate.addEventListener("click", clickhandler)
 
 function clickhandler() {
-    let url = "https://api.funtranslations.com/translate/klingon.json" + "?" + "text=" + translateFrom.value;
+    let url = "https://api.funtranslations.com/translate/minion.json" + "?" + "text=" + translateFrom.value;
     fetch(url)
         .then(response => response.json())
         .then(json => {
