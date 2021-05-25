@@ -10,8 +10,6 @@ function clickhandler() {
     fetch(url)
         .then(response => response.json())
         .then(json => {
-            console.log(json);
-            console.log(json.contents.translated);
             translateTo.innerText = json.contents.translated
         })
         .catch(errorHandler)

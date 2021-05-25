@@ -37,6 +37,8 @@ body{
     width: 50%;
     height: 15vh;
     background-color: white;
+    box-sizing: border-box;
+    padding: 0.5rem;
 }
 
 #btn-translate{
