@@ -46,6 +46,7 @@ body{
     margin-bottom: 1rem;
     border: 0;
     border-radius: 2rem;
+    font-style: inherit;
     background-color:var(--primary-color);
 }
 
